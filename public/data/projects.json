@@ -1,0 +1,61 @@
+[
+    {
+        "number": "PROYECTO 01",
+        "title": "REVIEWHUB",
+        "image": "./images/Reviewhub3.png",
+        "alt": "ReviewHub",
+        "carrousel": [
+            {
+                "image": "./images/Reviewhub1.png",
+                "alt": ""
+            },
+            {
+                "image": "./images/Reviewhub2.png",
+                "alt": ""
+            },
+            {
+                "image": "./images/Reviewhub3.png",
+                "alt": ""
+            }
+        ],
+        "description": "ReviewHub es una aplicación web que permite a los usuarios buscar y leer reseñas de perifericos. Los usuarios pueden registrarse y dejar sus propias reseñas. La aplicación cuenta con un sistema de puntuación y comentarios.",
+        "page": "https://github.com/Kev1nGM/ReviewHub/blob/master/README.md"
+    },
+    {
+        "number": "PROYECTO 02",
+        "title": "SPOTIFY",
+        "image": "./images/Spotify.png",
+        "alt": "Spotify",
+        "description": "Spotify es una aplicación de música en streaming que permite a los usuarios escuchar millones de canciones de diferentes géneros y artistas. Los usuarios pueden crear y compartir listas de reproducción, seguir a sus artistas favoritos y descubrir nueva música."
+    },
+    {
+        "number": "PROYECTO 03",
+        "title": "Epic Games",
+        "image": "./images/EpicGames2.png",
+        "alt": "Epic Games",
+        "description": "Epic Games es una plataforma de distribución de videojuegos que permite a los usuarios comprar y descargar juegos de diferentes géneros. La plataforma cuenta con una tienda en línea, un sistema de amigos y una comunidad de jugadores."
+    },
+    {
+        "number": "PROYECTO 04",
+        "title": "Netflix mobile",
+        "image": "./images/NetflixMobile.png",
+        "alt": "Netflix",
+        "description": "Netflix mobile es una aplicación de streaming de video que permite a los usuarios ver películas y series en sus dispositivos móviles. Los usuarios pueden buscar y ver contenido en línea, descargar contenido para verlo sin conexión y crear listas de reproducción."
+
+    },
+    {
+        "number": "PROYECTO 05",
+        "title": "Tech News",
+        "image": "./images/TechNews.png",
+        "alt": "Tech News",
+        "description": "Tech News es una aplicación de noticias que permite a los usuarios leer las últimas noticias sobre tecnología. Los usuarios pueden buscar noticias por categoría, guardar artículos para leer más tarde y compartir noticias en redes sociales."
+
+    },
+    {
+            "number": "PROYECTO 06",
+            "title": "Pokedex",
+            "image": "./images/Pokedex.png",
+            "alt": "Pokedex",
+            "description": "Pokedex es una aplicación que permite a los usuarios buscar y ver información sobre diferentes Pokémon. Los usuarios pueden buscar Pokémon por nombre o número, ver estadísticas y habilidades, y guardar sus Pokémon favoritos."
+    }
+]

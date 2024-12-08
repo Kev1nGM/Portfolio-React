@@ -1,0 +1,175 @@
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    margin-bottom: 5vh;
+}
+.newsletter-container {
+    background-color: rgba(25,28,36,255);
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    height: 85vh;
+}
+
+.newsletter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.newsletter-header .logo {
+    width: 300px;
+}
+
+.newsletter-header .publicidad {
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+.newsletter-content {
+    margin-bottom: 20px;
+}
+
+.promo-section, .message-section {
+    background-color: rgba(25,28,36,255);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.promo-section h2, .message-section h3 {
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    text-shadow: #ff0000 0 0 3px;
+}
+
+.promo-section p, .message-section p {
+    margin: 0 0 10px 0;
+}
+
+.promo-details, .benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.promo-details li, .benefits-list li {
+    margin-bottom: 5px;
+}
+
+.benefits-list i {
+    text-shadow: #ff0000 0 0 3px;
+}
+
+
+.promo-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.promo-button:hover {
+    background-color: #ff0000;
+}
+
+.newsletter-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.newsletter-footer p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons i {
+    width: 24px;
+    color: #fff;
+    text-shadow: #ff0000 0 0 3px;
+}
+
+/* Animación del contador */
+.countdown-timer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff4c4c; /* Color rojo llamativo */
+    animation: pulse 2s infinite; /* Animación de pulso */
+}
+  
+.countdown-timer p {
+    font-size: 1rem;
+    margin: 0;
+}
+  
+.countdown-timer h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #fff;
+    text-shadow: 0 0 8px #ff4c4c;
+}
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+.offer-expired {
+    margin-top: 5vh;
+    text-align: center;
+    background-color: rgba(255, 77, 77, 0.9); /* Rojo tenue */
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .offer-expired h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.8rem;
+  }
+  
+  .offer-expired p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Animación para el mensaje */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
